@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Mi Cámara</string>
+    <string name="take_photo">Tomar fotografía</string>
+    <string name="location_button">Actualizar ubicación</string>
+    <string name="preview_description">Vista previa de la fotografía</string>
+</resources>

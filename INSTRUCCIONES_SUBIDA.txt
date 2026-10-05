@@ -1,0 +1,28 @@
+MI CÁMARA - PROYECTO COMPLETO CORREGIDO
+
+Para evitar mezclar archivos viejos con nuevos:
+
+1. En el repositorio GitHub "mi-camara", elimina los archivos actuales
+   o crea un repositorio nuevo vacío.
+2. Descomprime MiCamara_Nativa_COMPLETA_CORREGIDA.zip.
+3. Sube TODO el contenido de la carpeta descomprimida.
+4. La raíz del repositorio debe mostrar:
+     .github/
+     app/
+     README.md
+     build.gradle.kts
+     gradle.properties
+     settings.gradle.kts
+5. Dentro de app/ debe existir:
+     build.gradle.kts
+     src/
+6. Dentro de .github/workflows/ debe existir:
+     build-apk.yml
+7. Haz Commit changes.
+8. GitHub Actions ejecutará la compilación automáticamente.
+
+IMPORTANTE:
+No subas una carpeta contenedora adicional como:
+   mi-camara/MiCamara_Nativa_COMPLETA_CORREGIDA/app
+Debe quedar directamente:
+   mi-camara/app
